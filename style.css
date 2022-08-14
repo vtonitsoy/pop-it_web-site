@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    padding-top: 2%;
+    background-image: url("images/background.png");
+    background-size: 100% 100%;
+    padding-bottom: 10%;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.bobold{
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.right_menu{
+    display: flex;
+    margin-left: auto;
+    margin-right: 0em;
+}
+
+.popit{
+    margin-right: 60%;
+    text-align: center;
+    font-size: 24pt;
+    color: white;
+}
+
+#popit{
+    font-weight:900;
+    font-size: 48pt;
+}
+
+.what_is{
+    text-align: center;
+    padding: 8%;
+}
+
+#what{
+    font-weight: 600;
+}
+
+.choose{
+    padding: 5%;
+    background-color: aqua;
+    text-align: center;
+}
+
+#choose_yours{
+    font-weight: 600;
+}
+
+.choose1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rules{
+    display: flex;
+    flex-direction: row;
+    background-image: url("images/bg-grid.png");
+    background-size: 100% 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.rules_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 3%;
+}
+
+#rules{
+    font-weight: 600;
+}
+
+.footer{
+    padding-left: 8%;
+    padding-right: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+#pup{
+    font-weight: 600;
+}
